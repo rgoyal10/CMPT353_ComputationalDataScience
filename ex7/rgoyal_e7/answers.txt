@@ -1,0 +1,8 @@
+Answer1:
+No, the residuals are not close-enough to being normal as p <0.05 is obtained when done normal test on residuals. Aslo, the histogram of residuals clearly shows that it is skewed and not close to normal. 
+Since, the OLS requires that data should be normal, the ratings are not reasonably concluded as increasing as our data does not pass the normality test.
+
+Answer2:
+Yes, the new 'better' prediction is letting the Kalman filter do a better job capturing the true signal in the noise as the new data set is also considering the other values that could affect the outcomes as we predict the data based on other factors also and not only temperature. 
+
+

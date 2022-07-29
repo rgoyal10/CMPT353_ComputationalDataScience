@@ -1,0 +1,7 @@
+Answer1: 
+rf_convert_model (uses random forest classifier and convert RGB to LAB) did the best for the colour-prediction task because rf_convert_model uses random forest classifier which helps reducing overfitting by adjusting number of estimators and max_depth of each tree.  
+LAB worked better for different models as in LAB we use feature scaling to scale the values so that they are in the same scale, which makes prediction better.
+
+Answer2:
+(64 cities were predicted wrong)
+Yes, the model is making reasonable mistakes maybe due to similar weather conditions in some cities. More weather features can help making prediction better such as Wind speed, amount of rain and average temperature instead of min and max temperature. 
