@@ -1,0 +1,16 @@
+          MeanX      MeanY       StdX       StdY                                    RangeX                                    RangeY  correlation
+Data                                                                                                                                             
+1      8.717696  12.522874  12.155517   6.639964  [-22.635877790008944, 35.23705548785129]   [-2.565087832693213, 27.38415261152477]     0.950326
+2     -0.710787  -0.748987  11.481584   6.257918     [-33.2711130771198, 27.6470003722073]  [-18.621803760419063, 14.14731499231748]     0.955153
+3      0.968907   8.508535   2.235558   1.149301   [-2.4490643296742807, 4.51888491755363]   [6.641734490391763, 10.551871022804317]     0.981937
+4     49.905086  18.553837  28.508611  16.545896                            [0.0, 87.3767]                           [0.0, 44.56504]    -0.081193
+5     49.909994  18.555525  28.500001  16.540796     [4.337892453674525, 91.0528633396976]   [0.0554975075811517, 49.93419703633311]    -0.088236
+6      7.216155   7.602215  11.921599  11.764382     [-24.33382075234097, 35.402138910929]    [-22.9563569970746, 36.07987403078143]     0.935069
+
+Description 
+description1 = 'The given x and y values have strong linear correlation with each other and increase in one usually increase the other as correlation coefficient is positive and close to 1'
+description2 = 'The given x and y values have strong linear correlation with each other and increase in one usually increase the other as correlation coefficient is positive and close to 1'
+description3 = 'The given x and y values have strong linear correlation with each other and increase in one usually increase the other as correlation coefficient is positive and close to 1'
+description4 = 'The given x and y are negatively correlated and close to 0 which indicates little or no linear relatioship between them'
+description5 = 'The given x and y are negatively correlated and close to 0 which indicates little or no linear relatioship between them'
+description6 = 'The given x and y values have strong linear correlation with each other and increase in one usually increase the other as correlation coefficient is positive and close to 1'

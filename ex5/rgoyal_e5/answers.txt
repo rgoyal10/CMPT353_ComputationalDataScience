@@ -1,0 +1,12 @@
+Answer1:
+np.sqrt got the closest to satisfying the assumptions of a T-test as it make the weekend data normal and also passes the equal variance test as pvalue of both of these > 0.05. However, it does not clear the normality test of weekdays but is the closest amongst the four of the transformations.
+
+Answer2: 
+When the null hypothesis is rejected which states that number of comments on weekdays compared to weekends are same then, we accept the alternate hypothesis which concludes that there are different number of Reddit comments posted on weekdays compared to weekends.
+
+
+Answer3:
+According to me, Fix 2:the central limit theorem does a better job of getting an answer as it clears all the assumptions of T-test (normality and equal variance) which is more reliable to apple T-test upon. Also, grouping the data according to year and week number and taking mean of the comment count makes sense. Student's T-Test and Fix1 voilates some assumptions of T-test and thus can not be trusted completely.
+
+Answer4:
+On average, there are more Reddit comments posted in /r/canada in weekdays as mean of comment_count on weekdays (1823.57) > mean of comment_count on weekends(1269.507).

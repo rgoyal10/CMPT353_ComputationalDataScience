@@ -1,0 +1,9 @@
+Answer1: yes, we are p-hacking. According to me, in A/B testing, first we saw the p_values and noticed that it is >0.05 and thus after manipulating the data by just taking instructors, we made sure p_value comes <0.05. Hence we are doing p-hacking in A/B test as prof explained in class about "keep doing analysis until you find something significant" is hacking p-value. Also, a large part of data is being ignored by just considering instructors, I think it was unnecessary. 
+
+
+Answer2: Total number T-test between each pair of sorting implementation will be (7 * 6) /2 = 21 T-tests(used MACM permutations to calculate). Probability of false conclusion will be
+( 1 - (0.95)^21) = 0.6594 with threshold of 0.05/21 = 0.002381.
+
+
+Answer3: Ranking of sorting implemenation by speed - partition_sort>qs1>qs3>qs2>qs4>qs5>merge1
+The pairs which are not distinguished: (qs2,qs3), (qs2,qs4), (qs2,qs5), (qs3,qs4), (qs3,qs5), (qs4,qs5), (merge1,qs2).
