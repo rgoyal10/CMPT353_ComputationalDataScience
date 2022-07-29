@@ -1,0 +1,13 @@
+Answer1:
+(1) the reddit-0 data set and effectively no work - 36.493 s
+(2) no schema specified and not caching (reddit-2) - 51.498 s
+(3) with a schema but not caching (reddit-2) - 46.847 s
+(4) with both a schema and caching the twice-used DataFrame (reddit-2) - 42.303 s
+
+
+Answer2: most of the time taken is in reading the files as after specifying schema and caching, the time drops from 51.498 to 42.303 from which starting and ending the spark job time is 36.493. So, reading and writing files take most of the time.
+ 
+
+Answer3:
+I used cache() on grouped data after calculating the max of each hour so that it is not discarded as we need this in the result.
+
