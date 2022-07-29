@@ -1,0 +1,8 @@
+Answer1: I used .cache() at two places in my code(first on comments dataframe which is used ahead while joining, second on calculated relative average data). The .cache() was used to reduce the running time of program as these datasets are used again in program, so by using .cache() spark does not take extra time to load and calculate.
+
+
+Answer2:
+Real time with broadcasting: 1m 16.880s
+real time without broadcasting: 1m 21.096s
+
+Using broadcast, helps reducing running time as it limits the shuffling of data. The small data is broadcasted over large data which reduces time of shuffling.
