@@ -1,0 +1,7 @@
+Answer1: I found pandas more easier to use as it makes the grouping of data more easier. It even displays the data in a really good format. The functions were clearly explained in documentation and helped in easily understanding the concept.
+
+
+Answer2: 
+Running time of pivot_months_pandas: 37.8 ms ± 4.64 ms per loop (mean ± std. dev. of 7 runs, 10 loops each)
+Running time of pivot_months_loops: 825 ms ± 10.4 ms per loop (mean ± std. dev. of 7 runs, 1 loop each)
+It is clearly seen that pivot_months_pandas runs way faster than pivot_months_loops. As it is discussed in lectures in class that python is less time and memory efficient than programming languages like C and these libraries such as numpy and pandas are programmed in C to make running time less which justifies the difference in running time of both functions. These libraries are mde in C for user to use and avoid the long loops of python as all type of iteration can be done using functions from these libraries. 

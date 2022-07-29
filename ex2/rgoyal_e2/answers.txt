@@ -1,0 +1,5 @@
+Answer1:The result of data['timestamp']*fit.slope + fit.intercept is the predicted value of ratings which gives linear fit. The type of elements in prediction series is float64. This value is used to plot the graph against date where we use slope and intercept from regression to satisfy the linear equation y = mx+c. 
+
+Answer2: It gives the best fit line because it represents the relation between the predicted rating and timestamp values(which are claculted by created_at datetime objects).
+
+Each created_at value has its own specific timestamp value and later is derived from former which shows that they are related and can be paired correctly against predicted ratings to form fit line on the graph. 
